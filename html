@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Mouridoul Lahi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Mouridoul Lahi</h1>
+<p>Suivi des participations – Janvier → Septembre</p>
+
+<div id="form">
+    <h2>Ajouter une participation</h2>
+
+    <input id="nom" placeholder="Nom du membre">
+    <input id="tel" placeholder="Téléphone">
+    <input id="mois" placeholder="Mois (ex : Janvier)">
+    <input id="jour" placeholder="Jour">
+    <input id="montant" placeholder="Montant payé">
+
+    <button onclick="ajouterParticipation()">Ajouter</button>
+
+    <hr>
+
+    <h2>Espace Admin</h2>
+    <input id="admin_code" placeholder="Code admin">
+    <button onclick="activerAdmin()">Activer admin</button>
+</div>
+
+<h2>Liste des participations</h2>
+<div id="liste"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
